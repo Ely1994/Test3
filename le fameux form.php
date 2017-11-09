@@ -12,7 +12,7 @@
     <form>
     <select value=\"voiture\">
     <?php
-    $tab = ["Citroën", "Renault", "Ford"];
+    $tab = ["Citroën", "Renault", "Ford", "Seat", "Audi", "volkswagen"];
     foreach($tab as $var) {
         echo "<option value=\"$var\">$var</option>";
     }
