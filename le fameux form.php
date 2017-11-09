@@ -17,6 +17,7 @@
         echo "<option value=\"$var\">$var</option>";
     }
     ?>
+    </select>
     </form>
         <!--
     <form>
