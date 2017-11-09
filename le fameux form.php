@@ -9,8 +9,8 @@
 <body>
     
 </body>
-    <form>
-    <select value=\"voiture\">
+    <form method="post" action="le fameux $post.php">
+    <select value="voiture">
     <?php
     $tab = ["Citroën", "Renault", "Ford", "Seat", "Audi", "volkswagen"];
     foreach($tab as $var) {
@@ -18,6 +18,7 @@
     }
     ?>
     </select>
+    <input type="submit" value="Envoyer" />
     </form>
         <!--
     <form>
