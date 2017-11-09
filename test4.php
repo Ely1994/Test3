@@ -1,3 +1,5 @@
+<!-- VERSION 2.2 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
