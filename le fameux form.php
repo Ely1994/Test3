@@ -9,15 +9,16 @@
 <body>
     
 </body>
+    <form>
+    <select value=\"voiture\">
     <?php
-    $tab = ["Citroën", "Renault", "Ford"]
-    echo "<form> <select value=\"voiture\">";
+    $tab = ["Citroën", "Renault", "Ford"];
     foreach($tab as $var) {
-        ech "<option value=\"$var\">$var</option>";
+        echo "<option value=\"$var\">$var</option>";
     }
-    echo "</form>";
     ?>
-    <!--
+    </form>
+        <!--
     <form>
         <select value="voiture">
             <option value="Citroën">Citroën</option>
