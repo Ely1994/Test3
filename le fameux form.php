@@ -9,6 +9,15 @@
 <body>
     
 </body>
+    <?php
+    $tab = ["Citroën", "Renault", "Ford"]
+    echo "<form> <select value=\"voiture\">";
+    foreach($tab as $var) {
+        ech "<option value=\"$var\">$var</option>";
+    }
+    echo "</form>";
+    ?>
+    <!--
     <form>
         <select value="voiture">
             <option value="Citroën">Citroën</option>
@@ -16,6 +25,5 @@
             <option value="Ford">Ford</option>
         </select>
     </form>
-
-    
+    -->
 </html>
