@@ -9,12 +9,12 @@
     <title>Document</title>
 </head>
 <body>
-<h2>Coucou les boys, bienvenue dans mon exercice debutor300999000990</h2>
+<h2>Coucou les boys, bienvenue dans mon exercice debutor3000 corrigé</h2>
 <p><strong>Enonce :</strong> Creer un tableau avec des valeurs aléatoires de 1 à 200. Parcourir le tableau pour afficher le nombre d'itérations de chaque valeur.</p>
 <?php
     $tab = array(); /* création du tableau vide */
     for($j=1; $j<201; $j++) { /* remplissage du tableau, ici de 200 cases*/
-        array_push($tab, rand(1,200));
+        array_push($tab, rand(1,100));
     }
     $num = 0; /* ça c'est la variable qui va compter le nombre d'occurences */
     for($i=1; $i<101; $i++) { /* la boucle qui recherche les nombres de 1 à 100*/
