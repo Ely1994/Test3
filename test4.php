@@ -12,4 +12,4 @@
         }
         echo "La valeur ".$i." est présente ".$num." fois.<br />";
         $num = 0;
-    }
+    } cebyfueyueu
