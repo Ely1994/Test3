@@ -7,19 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    
-</body>
-    <form method="post" action="le fameux $post.php">
+<form method="post" action="fameux-post.php">
     <select value="voiture">
     <?php
-    $tab = ["Citroën", "Renault", "Ford", "Seat", "Audi", "volkswagen"];
+    $tab = ["Citroën", "Renault", "Ford", "Seat", "Audi", "Volkswagen", "Porshe"];
     foreach($tab as $var) {
         echo "<option value=\"$var\">$var</option>";
     }
     ?>
     </select>
     <input type="submit" value="Envoyer" />
-    </form>
+</form>
         <!--
     <form>
         <select value="voiture">
@@ -29,4 +27,5 @@
         </select>
     </form>
     -->
+</body>
 </html>
